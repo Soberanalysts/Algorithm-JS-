@@ -1,7 +1,7 @@
 let input = Number(require('fs').readFileSync('./dev/stdin').toString());
 
 
-for(let i = 1; i <= 9;i++){
-    console.log(i*input);
+for(let i = input; i >= 1;i--){
+    console.log(i);
 }
 
